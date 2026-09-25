@@ -33,7 +33,8 @@ The project focuses on:
 - PyArrow
 - Matplotlib
 - Jupyter Notebook
-- Parquet
+- Parquet  
+- Streamlit
 
 ---
 
@@ -94,6 +95,9 @@ Doctoome_CaseStudy/
 ├── src/  
 │   ├── cleaning/  
 │   └── analytics/  
+│  
+├──Visualitsation  
+│   └── app.py  
 │  
 ├── requirements.txt  
 │  
@@ -163,7 +167,12 @@ pip install -r requirements.txt
 ## Reproducing the Analysis
 
 run the notebooks in their respected order.  
-- further explanation is listed in the notebooks content.
+- further explanation is listed in the notebooks content.  
+- to the run the streamlit app you must run this command on root folder
+```bash
+streamlit run Visualisation/app.py
+```
+
 ---
 
 ## Data Quality
