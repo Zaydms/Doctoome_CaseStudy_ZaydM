@@ -1,0 +1,14 @@
+#Venv
+.venv/
+venv
+test_env/
+
+#Pycache
+*.pyc
+
+#files
+data/processed/*
+!data/processed/.gitkeep
+
+data/Analytics/*
+!data/Analytics/.gitkeep
