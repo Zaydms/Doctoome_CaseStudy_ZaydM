@@ -168,7 +168,7 @@ pip install -r requirements.txt
 
 run the notebooks in their respected order.  
 - further explanation is listed in the notebooks content.  
-- to the run the streamlit app you must run this command on root folder
+- to the run the streamlit app you must run this command on root folder. Only run streamlit after all the analytical process has been done.
 ```bash
 streamlit run Visualisation/app.py
 ```
